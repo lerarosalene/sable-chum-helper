@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "name": "sable-chum-helper",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "run": "npm run build && node dist/sable-chum-helper.js"
+  },
+  "keywords": [],
+  "author": "Larissa Rosalene",
+  "license": "ISC",
+  "dependencies": {
+    "esbuild": "^0.19.11",
+    "postject": "^1.0.0-alpha.6"
+  }
+}

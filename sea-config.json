@@ -1,0 +1,4 @@
+{
+  "main": "dist/sable-chum-helper.js",
+  "output": "build/smh.blob"
+}
