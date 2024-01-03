@@ -6,6 +6,9 @@ import chums from "./__generated/chums.json";
 const fsp = fs.promises;
 
 function getSaveDir() {
+  if (process.argv[2]) {
+    return path.resolve(process.argv[2]);
+  }
   return path.resolve(process.env.USERPROFILE, "AppData", "LocalLow", "Shedworks", "Sable", "SaveData");
 }
 
